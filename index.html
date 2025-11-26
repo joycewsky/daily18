@@ -156,7 +156,7 @@
 
   <div class="container">
     <header>
-      <h1>小杰 3C 館</h1>
+      <h1>饅饅解憂店</h1>
     </header>
 
     <div class="filter-bar">
@@ -228,9 +228,9 @@
           const price = parseFloat(item.price || item['price ']) || 0;
           switch (currentFilter) {
             case 'low':
-              return price < 10000;
+              return price < 1000;
             case 'mid':
-              return price >= 10000 && price <= 30000;
+              return price >= 1000 && price <= 30000;
             case 'high':
               return price > 30000;
             default:
